@@ -8,19 +8,56 @@
   Having styles.css after bootstrap.min.css means that styles.css overwrites bootstrap.min.css in their shared properties-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <!-- script is javascript and it is added to allow for responses for the html file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<!-- The nav bar and title section -->
+  <!-- The nav bar and title section -->
   <section>
 
-  <!-- The nav bar sub-section -->
+    <!-- The nav bar sub-section -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Excercise Suggester</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> <!-- The buttom is the hamberger button. This #navbarTogglerDemo01 means it impacts the id=navbarTogglerDemo01  -->
 
 
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
 
+          <ul class="navbar-nav ms-auto ">
+            <!-- ms-auto to add space between the list and the title -->
 
-<!-- The title sub-section  -->
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Features</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Testimonies</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""> Download Now!
+              </a>
+
+            </li>
+          </ul>
+          </div>
+    </nav>
+
+
+    <!-- The title sub-section  -->
 
     <div>
       <h1>Limited Resources To Excercise ?</h1>
@@ -34,81 +71,81 @@
 
     </div>
 
-</section>
+  </section>
 
-<!-- The features section -->
-<section>
-  <h3>Easy to use.</h3>
-  <p>So easy it takes 5 minutes before you start your workout routine.</p>
+  <!-- The features section -->
+  <section>
+    <h3>Easy to use.</h3>
+    <p>So easy it takes 5 minutes before you start your workout routine.</p>
 
-  <h3>Elite Recommendations</h3>
-  <p>We recommend and you choose.</p>
+    <h3>Elite Recommendations</h3>
+    <p>We recommend and you choose.</p>
 
-  <h3>Guaranteed to work.</h3>
-  <p>You will burn all the calories you could have burned at the gym.</p>
-
-
-</section>
-
-<!-- The Customer's testimonies section   -->
-
-<section>
-  <h2>I no longer have to choose between my work and my gym</h2>
-  <img src="SA.jpg" alt="SA-backflex">
-  <em>Sulaiman Arab, Mississauga, Ontario, Canada</em>
-
-</section>
+    <h3>Guaranteed to work.</h3>
+    <p>You will burn all the calories you could have burned at the gym.</p>
 
 
+  </section>
 
-<!-- The pricing section -->
+  <!-- The Customer's testimonies section   -->
 
-<section>
+  <section>
+    <h2>I no longer have to choose between my work and my gym</h2>
+    <img src="SA.jpg" alt="SA-backflex">
+    <em>Sulaiman Arab, Mississauga, Ontario, Canada</em>
 
-  <h2>A Plan for Everyones' Needs</h2>
-  <p>Simple and affordable price plans for you.</p>
-
-
-  <h3>Standard</h3>
-  <h2>Free</h2>
-  <p>5 Usages Per Month</p>
-  <p>Home Workouts Selections Only</p>
-  <button type="button">Sign Up</button>
+  </section>
 
 
-  <h3>Advanced</h3>
-  <h2>$5 / mo</h2>
-  <p>20 Usages Per Month</p>
-  <p>Home Workouts & Gym Workouts Selections</p>
-  <button type="button">Sign Up</button>
+
+  <!-- The pricing section -->
+
+  <section>
+
+    <h2>A Plan for Everyones' Needs</h2>
+    <p>Simple and affordable price plans for you.</p>
 
 
-  <h3>Premium</h3>
-  <h2>$15 / mo</h2>
-  <p>Unlimiated Usages</p>
-  <p>Home Workouts & Gym Workouts Selections</p>
-  <button type="button">Sign Up</button>
-
-</section>
-
-<!-- The call to action section to download this application  -->
-
-<section>
-
-  <h3>Change Your Life Style Today.</h3>
-  <button type="button">Download</button>
-  <button type="button">Download</button>
-
-</section>
+    <h3>Standard</h3>
+    <h2>Free</h2>
+    <p>5 Usages Per Month</p>
+    <p>Home Workouts Selections Only</p>
+    <button type="button">Sign Up</button>
 
 
-<!-- The footer section  -->
-<footer>
+    <h3>Advanced</h3>
+    <h2>$5 / mo</h2>
+    <p>20 Usages Per Month</p>
+    <p>Home Workouts & Gym Workouts Selections</p>
+    <button type="button">Sign Up</button>
 
-  <p>© Copyright Exercise Suggester </p>
+
+    <h3>Premium</h3>
+    <h2>$15 / mo</h2>
+    <p>Unlimiated Usages</p>
+    <p>Home Workouts & Gym Workouts Selections</p>
+    <button type="button">Sign Up</button>
+
+  </section>
+
+  <!-- The call to action section to download this application  -->
+
+  <section>
+
+    <h3>Change Your Life Style Today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
 
 
-</footer>
+  <!-- The footer section  -->
+  <footer>
+
+    <p>© Copyright Exercise Suggester </p>
+
+
+  </footer>
 
 
 
