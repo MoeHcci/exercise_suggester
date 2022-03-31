@@ -1,5 +1,17 @@
-.title_img {
+
+/* Section 1  */
+body{
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.title_img_one {
   width: 20rem;
+}
+.title_img_two {
+  width: 30rem;
 }
 
 #title {
@@ -37,12 +49,14 @@
   width: 1rem;
 }
 
+.btn-color {
+color: black;
+
+}
+
 .google_img {
   width: 2.0rem;
 }
 
-.yes {
-  font-family: 'Ubuntu', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Oswald', sans-serif;
-}
+
+/* Section 2 */
