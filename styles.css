@@ -22,14 +22,23 @@
   line-height: 1.0;
 }
 
-.container-fluid {
+.container-override  {
   width: 100%;
   padding-top: 0%;
   padding-bottom: 0%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2% ;
+  padding-right: 2%;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+.apple_img {
+  width: 1rem;
+}
+
+.google_img {
+  width: 2.0rem;
 }
 
 .yes {

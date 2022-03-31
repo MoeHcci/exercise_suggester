@@ -7,7 +7,6 @@
   <!-- The order of .css files matter.
   Having styles.css after bootstrap.min.css means that styles.css overwrites bootstrap.min.css in their shared properties-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
   <!-- script is javascript and it is added to allow for responses for the html file -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
@@ -17,6 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -25,48 +26,49 @@
   <section id="title">
 
     <!-- The container fluid will wrap all the text in one container -->
-    <div class="container-fluid">
+    <!-- I created a new class to override the "container" class. I could have made the container into an ID and get more importance points
+    The points are 100 for Ids, 10 for classes, 1 for tags. Therefore, class =container wont work, because of the points but if you just make a new class it will work no problem
+  This because bootstrap can't impact the new class. but if you wanted to use an old class make it into an id to add more importance to ti -->
+    <div class="container-override">
 
 
       <!-- The nav bar sub-section -->
       <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <a class="navbar-brand" href="">Excercise Suggester</a>
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- The buttom is the hamberger button. This #navbarTogglerDemo01 means it impacts the id=navbarTogglerDemo01  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- The buttom is the hamberger button. This #navbarTogglerDemo01 means it impacts the id=navbarTogglerDemo01  -->
 
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
 
-            <ul class="navbar-nav ms-auto">
-              <!-- ms-auto to add space between the list and the title -->
+          <ul class="navbar-nav ms-auto">
+            <!-- ms-auto to add space between the list and the title -->
 
-              <li class="nav-item">
-                <a class="nav-link" href="">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Features</a>
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Features</a>
 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Testimonies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Testimonies</a>
 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Pricing </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing </a>
 
-              </li>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href=""> Download Now!
-                </a>
+            <li class="nav-item">
+              <a class="nav-link" href=""> Download Now!
+              </a>
 
-              </li>
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
       </nav>
 
@@ -79,8 +81,9 @@
         <div class="col-lg-6 col-md-12 col-sm-12">
           <h1 class="hone-title-font">Limited Resources To Excercise ?</h1>
           <h2 class="htwo-title-font">This Wont Be An Issue Any More</h2>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <button type="button" class="btn btn-dark btn-lg"> <img class="apple_img" src="whiteapple.png" alt="whiteappleicon"> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"> <img class="google_img" src="googleicon.png" alt="googleplay"> Download</button>
+
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
           <img class="title_img" src="homeworkout.jpg" alt="noequpment">
