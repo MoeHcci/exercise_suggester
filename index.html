@@ -15,21 +15,22 @@
 <body>
 
   <!-- The nav bar and title section -->
-  <section>
+  <section id="title">
 
     <!-- The nav bar sub-section -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Excercise Suggester</a>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="">Excercise Suggester</a>
+      <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button> <!-- The buttom is the hamberger button. This #navbarTogglerDemo01 means it impacts the id=navbarTogglerDemo01  -->
+        </button>
+        <!-- The buttom is the hamberger button. This #navbarTogglerDemo01 means it impacts the id=navbarTogglerDemo01  -->
 
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
 
-          <ul class="navbar-nav ms-auto ">
+          <ul class="navbar-nav ms-auto">
             <!-- ms-auto to add space between the list and the title -->
 
             <li class="nav-item">
@@ -44,33 +45,39 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="">Pricing </a>
 
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href=""> Download Now!
               </a>
 
             </li>
           </ul>
-          </div>
+        </div>
+      </div>
     </nav>
 
 
+
     <!-- The title sub-section  -->
+    <div class="row">
 
-    <div>
-      <h1>Limited Resources To Excercise ?</h1>
-      <h2>This Wont Be An Issue Any More</h2>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <h1>Limited Resources To Excercise ?</h1>
+        <h2>This Wont Be An Issue Any More</h2>
+        <button type="button">Download</button>
+        <button type="button">Download</button>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img class="title_img" src="noequpment.jpg" alt="noequpment">
+        <img class="title_img" src="excerciseequpment.jpg" alt="excerciseequpment">
+
+      </div>
+
+
     </div>
-    <div>
-      <img src="excerciseequpment.jpg" alt="excerciseequpment">
-      <img src="noequpment.jpg" alt="noequpment">
-
-    </div>
-
   </section>
 
   <!-- The features section -->
@@ -90,9 +97,11 @@
   <!-- The Customer's testimonies section   -->
 
   <section>
-    <h2>I no longer have to choose between my work and my gym</h2>
-    <img src="SA.jpg" alt="SA-backflex">
-    <em>Sulaiman Arab, Mississauga, Ontario, Canada</em>
+    <h2> Thanks to the Excercise Suggester I no longer have to choose between my work and my gym</h2>
+    <img class="title_img" src="SA.jpg" alt="SA-backflex">
+    <p>
+      <em>Sulaiman Arab, Mississauga, Ontario, Canada</em>
+    </p>
 
   </section>
 
