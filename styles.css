@@ -1,14 +1,39 @@
 .title_img {
- width: 20rem;
+  width: 20rem;
 }
 
 #title {
-
-background-color:  #daebe8;
-
-
+  background-color: #87bdd8;
 }
 
 .navbar-custom {
-    background-color:#87bdd8;
+  background-color: #87bdd8;
+}
+
+.hone-title-font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.htwo-title-font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.0;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.yes {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
