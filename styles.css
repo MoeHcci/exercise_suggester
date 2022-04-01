@@ -7,31 +7,9 @@ body{
 }
 
 
-.title_img_one {
-  width: 20rem;
-}
-.title_img_two {
-  width: 30rem;
-}
 
 #title {
   background-color: #87bdd8;
-}
-
-.navbar-custom {
-  background-color: #87bdd8;
-}
-
-.hone-title-font {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.htwo-title-font {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  line-height: 1.0;
 }
 
 .container-override  {
@@ -44,6 +22,35 @@ body{
   margin-left: auto;
 }
 
+/* The images  */
+.title_img_one {
+  width: 20rem;
+
+}
+.title_img_two {
+  width: 30rem;
+}
+
+/* The nav bar */
+
+.navbar-custom {
+  background-color: #87bdd8;
+}
+
+/* The text titles */
+.hone-title-font {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.htwo-title-font {
+  font-size: 2.5rem;
+  line-height: 1.0;
+}
+
+
+
+/* The Download Button Section */
 
 .apple_img {
   width: 1rem;
@@ -58,5 +65,50 @@ color: black;
   width: 2.0rem;
 }
 
+.buttonmargins {
+margin-top: 1rem ;
+margin-right: 0rem;
+margin-left: 1rem;
+margin-bottom: 0rem;
+
+
+
+
+}
 
 /* Section 2 */
+#sectwo {
+  background-color: #b7d7e8;
+}
+
+
+.center {
+
+text-align: center;
+
+}
+
+.sectwoimg {
+background-color: #b7d7e8
+
+
+}
+
+.sectwoimg:hover {
+  background-color: #87bdd8
+
+}
+.easytwouse_size {
+width: 10rem;
+
+}
+
+.recommendations_size {
+width: 20rem;
+
+}
+
+.guranteedtowork {
+width: 10rem;
+
+}
