@@ -1,22 +1,17 @@
-
 /* Section 1  */
-body{
-
+body {
   font-family: 'Montserrat', sans-serif;
-
 }
-
-
 
 #title {
   background-color: #87bdd8;
 }
 
-.container-override  {
+.container-override {
   width: 100%;
   padding-top: 0%;
   padding-bottom: 0%;
-  padding-left: 2% ;
+  padding-left: 2%;
   padding-right: 2%;
   margin-right: auto;
   margin-left: auto;
@@ -25,14 +20,13 @@ body{
 /* The images  */
 .title_img_one {
   width: 20rem;
-
 }
+
 .title_img_two {
   width: 30rem;
 }
 
 /* The nav bar */
-
 .navbar-custom {
   background-color: #87bdd8;
 }
@@ -48,17 +42,13 @@ body{
   line-height: 1.0;
 }
 
-
-
 /* The Download Button Section */
-
 .apple_img {
   width: 1rem;
 }
 
 .btn-color {
-color: black;
-
+  color: black;
 }
 
 .google_img {
@@ -66,14 +56,10 @@ color: black;
 }
 
 .buttonmargins {
-margin-top: 1rem ;
-margin-right: 0rem;
-margin-left: 1rem;
-margin-bottom: 0rem;
-
-
-
-
+  margin-top: 1rem;
+  margin-right: 0rem;
+  margin-left: 1rem;
+  margin-bottom: 0rem;
 }
 
 /* Section 2 */
@@ -81,34 +67,40 @@ margin-bottom: 0rem;
   background-color: #b7d7e8;
 }
 
+.paragraphsize {
+  width: 300px;
+  height: 200px;
+}
 
 .center {
-
-text-align: center;
-
+  text-align: center;
 }
 
 .sectwoimg {
-background-color: #b7d7e8
-
-
+  background-color: #b7d7e8
 }
 
 .sectwoimg:hover {
   background-color: #87bdd8
-
 }
-.easytwouse_size {
-width: 10rem;
 
+.easytwouse_size {
+  display: block;
+  width: 10rem;
+  margin-left: 12.5rem;
+  margin-right: 0;
 }
 
 .recommendations_size {
-width: 20rem;
-
+  width: 20rem;
+  display: block;
+  margin-left: 8.5rem;
+  margin-right: 0;
 }
 
 .guranteedtowork {
-width: 10rem;
-
+  width: 10rem;
+  display: block;
+  margin-left: 12.5rem;
+  margin-right: 0;
 }
