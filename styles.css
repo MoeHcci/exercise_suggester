@@ -65,6 +65,7 @@ body {
 /* Section 2 */
 #sectwo {
   background-color: #b7d7e8;
+  padding-top: 3.125rem
 }
 
 .paragraphsize {
@@ -82,6 +83,8 @@ body {
 
 .sectwoimg:hover {
   background-color: #87bdd8
+  /* color:white; */
+
 }
 
 .easytwouse_size {
