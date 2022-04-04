@@ -4,9 +4,10 @@ body {
 }
 
 #title {
-  background-color: #87bdd8;
+  background-color: #85C1E9;
 }
 
+/* colors from https://htmlcolorcodes.com/ */
 .container-override {
   width: 100%;
   padding-top: 0%;
@@ -28,7 +29,7 @@ body {
 
 /* The nav bar */
 .navbar-custom {
-  background-color: #87bdd8;
+  background-color: #85C1E9;
 }
 
 /* The text titles */
@@ -84,8 +85,8 @@ body {
 }
 
 .sectwoimg:hover {
-  background-color: #87bdd8
-    /* color:white; */
+  background-color: #85C1E9;
+  /* color:white; */
 }
 
 .easytwouse_size {
@@ -111,7 +112,7 @@ body {
 
 /* The testimonies section */
 #testimonies {
-  background-color: #87bdd8;
+  background-color: #85C1E9;
   padding-top: 3.125rem;
   padding-bottom: 0%;
   padding-left: 2%;
@@ -120,6 +121,10 @@ body {
   margin-left: auto;
   text-align: center;
   height: 42rem;
+}
+
+.height_testmonials {
+  height: 35rem;
 }
 
 .title_img {
@@ -140,4 +145,63 @@ body {
 .carousel_img_size {
   width: 20rem;
   height: 28rem;
+}
+
+/* The pricing section  */
+.pricing_center
+{
+text-align: center;
+
+
+}
+
+.pricing_title_clearances
+{
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: auto;
+padding-right: auto;
+
+}
+
+
+.options_clearances
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+
+
+}
+
+.card-option-border {
+  border:0rem;
+}
+
+
+.card_body-option
+{
+
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 1rem;
+    padding-right: 0px;
+    border-style: solid;
+
+}
+
+.card-title_border {
+ border-bottom: 0.1875rem solid black;
+ background-color: #85C1E9;
+
+}
+
+.btn-settings
+{
+  background-color: #85C1E9;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
 }
