@@ -119,6 +119,21 @@ body {
   margin-right: auto;
 }
 
+@media screen and (max-width: 900px)
+
+{
+  .hone-title-font {
+    text-align: center;
+  }
+
+  .htwo-title-font{
+    text-align: center;
+  }
+}
+
+
+
+
 /* The testimonies section */
 #testimonies {
   background-color: #85C1E9;
