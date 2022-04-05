@@ -3,9 +3,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   z-index: 10;
-
+  /* to make sure nothing come on top of the home */
 }
-
 
 #title {
   background-color: #85C1E9;
@@ -119,20 +118,15 @@ body {
   margin-right: auto;
 }
 
-@media screen and (max-width: 900px)
-
-{
+@media screen and (max-width: 900px) {
   .hone-title-font {
     text-align: center;
   }
 
-  .htwo-title-font{
+  .htwo-title-font {
     text-align: center;
   }
 }
-
-
-
 
 /* The testimonies section */
 #testimonies {
@@ -182,11 +176,12 @@ body {
   padding-left: auto;
   padding-right: auto;
 }
-.row {
-margin-left: 0;
-margin-right: 0;
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
+
 .options_clearances {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -221,23 +216,19 @@ margin-right: 0;
 /* The downlaod bottom section (dbs)  */
 .dbs-settings {
   background-color: #85C1E9;
-  height: 37.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
-.womanfleximg {
-  display: block;
-  position: relative;
-  padding-top: 6rem;
-  z-index: 0;
-  float:right;
-
+/* The footer section */
+.footersetting {
+  background-color: white;
+  padding-top: 1rem;
+  text-align: center
 }
 
-  /* The footer section */
-
-  .footersetting {
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    padding-top: 1rem;
-  }
+.footer_writing {
+  padding-left: auto;
+  padding-right: auto;
+}
