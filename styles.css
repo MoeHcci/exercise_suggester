@@ -173,7 +173,7 @@ call for action section   */
   height: 28rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .carousel_mobile {
     padding-left: auto;
     padding-right: 1050px;;
