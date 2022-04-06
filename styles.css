@@ -173,6 +173,13 @@ call for action section   */
   height: 28rem;
 }
 
+@media screen and (max-width: 900px) {
+  .carousel_mobile {
+    padding-left: auto;
+    padding-right: 1050px;;
+  }
+
+
 /* The pricing section  */
 #pricing {
   background-color: white;
