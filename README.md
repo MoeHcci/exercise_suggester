@@ -2,7 +2,7 @@
 <h2> About </h2>
 <ul>
 <li>
-This is a single page landing page of a template for an Exercise Suggester Front End application.
+This is a single page landing page of a template for an Exercise Suggester Front End application
 </li>
     <li>
 HTML and CSS were used to build this application</li>
