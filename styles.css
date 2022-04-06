@@ -1,16 +1,22 @@
-/* Section 1  */
+/* colors from https://htmlcolorcodes.com/ */
+/* The title section  */
 body {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   z-index: 10;
-  /* to make sure nothing come on top of the home */
+  /* to make sure nothing come on top from a z axis prespective of the home */
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/* The title section  */
 #title {
   background-color: #85C1E9;
 }
 
-/* colors from https://htmlcolorcodes.com/ */
 .container-override {
   width: 100%;
   padding-top: 0%;
@@ -45,18 +51,28 @@ body {
   font-size: 2.5rem;
   line-height: 1.0;
 }
+@media screen and (max-width: 900px) {
+  .hone-title-font {
+    text-align: center;
+  }
 
-/* The Download Button Section */
+  .htwo-title-font {
+    text-align: center;
+  }
+}
+
+/* The Download Button Section This also for the buttons in the
+call for action section   */
 .apple_img {
   width: 1rem;
 }
 
-.btn-color {
-  color: black;
-}
-
 .google_img {
   width: 2.0rem;
+}
+
+.btn-color {
+  color: black;
 }
 
 .buttonmargins {
@@ -66,8 +82,9 @@ body {
   margin-bottom: 0rem;
 }
 
-/* Section 2 */
-#sectwo {
+/* The features section */
+
+#features {
   background-color: white;
   padding-top: 3.125rem;
   padding-bottom: 0%;
@@ -79,16 +96,15 @@ body {
 }
 
 .paragraphsize {
-  height: 200px;
+  height: 12.5rem;
 }
 
-.sectwoimg {
+.featureimg {
   background-color: white;
 }
 
-.sectwoimg:hover {
+.featureimg:hover {
   background-color: #85C1E9;
-  /* color:white; */
 }
 
 .easytwouse_size {
@@ -118,15 +134,7 @@ body {
   margin-right: auto;
 }
 
-@media screen and (max-width: 900px) {
-  .hone-title-font {
-    text-align: center;
-  }
 
-  .htwo-title-font {
-    text-align: center;
-  }
-}
 
 /* The testimonies section */
 #testimonies {
@@ -166,8 +174,8 @@ body {
 }
 
 /* The pricing section  */
-.pricing_center {
-  text-align: center;
+#pricing {
+  background-color: white;
 }
 
 .pricing_title_clearances {
@@ -175,6 +183,8 @@ body {
   padding-bottom: 1rem;
   padding-left: auto;
   padding-right: auto;
+  text-align: center;
+
 }
 
 .row {
@@ -202,33 +212,25 @@ body {
   border-style: solid;
 }
 
-.card-title_border {
+.card-title_border, {
   border-bottom: 0.1875rem solid black;
   background-color: #85C1E9;
 }
 
-.btn-settings {
+/* The call for action section to download this application */
+
+#dbs-settings {
   background-color: #85C1E9;
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-/* The downlaod bottom section (dbs)  */
-.dbs-settings {
-  background-color: #85C1E9;
   text-align: center;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* The footer section */
-.footersetting {
+#footersetting {
   background-color: white;
   padding-top: 1rem;
-  text-align: center
-}
-
-.footer_writing {
-  padding-left: auto;
-  padding-right: auto;
+  text-align: center;
 }
