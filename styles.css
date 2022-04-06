@@ -218,7 +218,7 @@ call for action section   */
   border-style: solid;
 }
 
-.card-title_border, {
+.card-title_border {
   border-bottom: 0.1875rem solid black;
   background-color: #85C1E9;
 }
