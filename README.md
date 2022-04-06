@@ -9,7 +9,7 @@ HTML and CSS were used to build this application</li>
     <li>
 CSS's Bootstrap is used in this web application </li>
     <li>
-The web application can be found at:  </li>
+The web application can be found at: https://moehcci.github.io/exercise_suggester/ </li>
 </ul>
 
 <h2> Main Features From Bootstrap </h2>
