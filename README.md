@@ -24,11 +24,12 @@ Navbar, Buttons, Carousels, Breakpoints, Containers, Grind System, Z-index, card
 A navbar and a hamburger functionality are included in the front end application as presented in the images below</li>
 </ul>
 <p>
-<img src="hamburger.png" />
-</p>
-<p>
 <img src="navbar.png" />
 </p>
+<p>
+<img src="hamburger.png" />
+</p>
+
 <h2> Main Bootstrap Features - The Carousel </h2>
 <ul>
 <li>
