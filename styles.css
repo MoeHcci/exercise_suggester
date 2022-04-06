@@ -176,10 +176,8 @@ call for action section   */
 @media screen and (max-width: 1000px) {
   .carousel_mobile {
     width: 900px;
-
-
   }
-
+}
 
 /* The pricing section  */
 #pricing {
